@@ -1,0 +1,23 @@
+{
+    "name": "Macaroon-theme",
+    "displayName": "Macaroon Theme",
+    "description": "A light theme for vscode",
+    "version": "0.0.5",
+    "publisher": "sean",
+    "engines": {
+        "vscode": "^1.12.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "icon.png",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Macaroon Theme",
+                "uiTheme": "vs",
+                "path": "./themes/sean-color-theme.json"
+            }
+        ]
+    }
+}

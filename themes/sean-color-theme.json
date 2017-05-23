@@ -1,0 +1,411 @@
+{
+	"name": "sean",
+	"colors": {
+		"editor.background": "#fdf6e3",
+		"editor.foreground": "#6688cc"
+		// "tabsContainerBackground": "#1c1c2a",
+		// "inactiveTabBackground": "#10192c",
+		// "activityBarBackground": "#051336",
+	},
+	"tokenColors": [
+		// invalid 的预发定义
+		{
+			"scope": "invalid",
+			"settings": {
+				"foreground": "#999999"
+			}
+		},
+		{
+			"scope": "variable.other.readwrite,variable.other.readwrite.js,variable.other.readwrite.ts,variable.other.readwrite.tsx,variable.other.object.js,punctuation.accessor.js",
+			"settings": {
+				"foreground": "#cd4e44"
+			}
+		},
+		{
+			"scope": "variable.other.property.js",
+			"settings": {
+				"foreground": "#00AFD6"
+			}
+		},
+		// import 关键字的颜色
+		{
+			"scope": "keyword.control.at-rule.import.scss,keyword.control.module.js,keyword.operator.accessor",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "keyword.control.import.js,keyword.control.from.js,keyword.control.export.js,keyword.control.default.js",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		// react内部方法的颜色
+		{
+			"scope": "entity.name.function.method",
+			"settings": {
+				"foreground": "#d33682"
+			}
+		},
+		// 一般方法的颜色
+		{
+			"scope": "entity.name.function,support.function.dom.js",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#2c91af"
+			}
+		},
+		// 
+		{
+			"scope": "string.template",
+			"settings": {
+				"foreground": "#22aa44"
+			}
+		},
+		// 单引号文字的颜色
+		{
+			"scope": "string.quoted.single.js,string.quoted.single.scss,string.quoted.single.attribute-value.scss,string.quoted.single.json",
+			"settings": {
+				"foreground": "#22aa44"
+			}
+		},
+		// 双引号文字
+		{
+			"scope": "string.quoted.double.js,string.quoted.double.scss,string.quoted.double.attribute-value.scss,string.quoted.double.json",
+			"settings": {
+				"foreground": "#22aa44"
+			}
+		},
+		// JSON key的颜色
+		{
+			"scope": "constant.other.object.key.js,meta.object-literal.key.js,support.type.property-name.json",
+			"settings": {
+				"foreground": "#fe7d9d"
+			}
+		},
+		//
+		{
+			"scope": "support.class.builtin.js",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#555555"
+			}
+		},
+		
+		// 注释相关颜色
+		{
+			"scope": "comment",
+			"settings": {
+				"foreground": "#384887"
+			}
+		},
+		{
+			"scope": "comment.block.documentation",
+			"settings": {
+				"foreground": "#384887"
+			}
+		},
+		{
+			"scope": "comment.line.double-slash,punctuation.definition.comment.scss,comment.line.scss",
+			"settings": {
+				"foreground": "#999999"
+			}
+		},
+		// html 注释的标签符号
+		{
+			"scope": "punctuation.definition.comment.html",
+			"settings": {
+				"foreground": "#999999"
+			}
+		},
+		// html 注释的内容
+		{
+			"scope": "comment.block.html",
+			"settings": {
+				"foreground": "#384887"
+			}
+		},
+		// this关键字的颜色
+		{
+			"scope": "variable.language.this,storage.type.function.js,keyword.control.flow.js,support.variable.dom.js,support.variable.property.dom.js",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#d33682"
+			}
+		},
+		// null关键字的颜色
+		{
+			"scope": "constant.language.null.js",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#666666"
+			}
+		},
+		// bool值的颜色
+		{
+			"scope": "constant.language.boolean",
+			"settings": {
+				"foreground": "#d33682"
+			}
+		},
+		// console关键字的颜色
+		{
+			"scope": "support.type.object.console.js",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#d33682"
+			}
+		},
+		{
+			"scope": "support.function.console.js",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#2c91af"
+			}
+		},
+		// 其他Class的定义，比如JSON 
+		{
+			"scope": "variable.other.class.js",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#d33682"
+			}
+		},
+		// Css 和 Sass 的标签名字
+		{
+			"name": "Tag attributes",
+			"scope": "entity.other.attribute-name,entity.other.attribute-name.class.css",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#268bd2"
+			}
+		},
+		// Css 和 Sass 的属性的颜色
+		{
+			"scope": "support.type.property-name.scss,support.type.property-name.css",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#fe7d9d"
+			}
+		},
+		// Css 和 Sass 的值的颜色
+		{
+			"scope": "support.constant.property-value.scss,support.constant.property-value.css",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#3C8F93"
+			}
+		},
+		// HTML标签的关键字颜色
+		{
+			"scope": "entity.name.tag.scss,support.constant.tag.css",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#dc322f"
+			}
+		},
+		// scss方法的颜色定义
+		{
+			"scope": "support.function.misc.scss",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#2c91af"
+			}
+		},
+		// scss方法的颜色定义
+		{
+			"scope": "variable.scss",
+			"settings": {
+				"foreground": "#00AFD6"
+			}
+		},
+		// =========默认颜色，无修正===========
+		{
+			"scope": "variable.language.constructor",
+			"settings": {
+				"foreground": "#9966b8"
+			}
+		},
+		{
+			"settings": {
+				"background": "#000c18",
+				"foreground": "#6688cc"
+			}
+		},
+		{
+			"name": "Numbers",
+			"scope": "constant.numeric",
+			"settings": {
+				"foreground": "#0000ff"
+			}
+		},
+		{
+			"name": "Built-in constants",
+			"scope": "constant.language",
+			"settings": {
+				"foreground": "#f280d0"
+			}
+		},
+		{
+			"name": "User-defined constants",
+			"scope": [
+				"constant.character",
+				"constant.other"
+			],
+			"settings": {
+				"foreground": "#f280d0"
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": "variable",
+			"settings": {
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Keywords",
+			"scope": "keyword",
+			"settings": {
+				"foreground": "#225588"
+			}
+		},
+		{
+			"name": "Storage",
+			"scope": "storage",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#225588"
+			}
+		},
+		{
+			"name": "Storage types",
+			"scope": "storage.type",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#9966b8"
+			}
+		},
+		{
+			"scope": "storage.type.let",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#ededed"
+			}
+		},
+		{
+			"name": "Class names",
+			"scope": [
+				"entity.name.class",
+				"entity.name.type"
+			],
+			"settings": {
+				"fontStyle": "underline",
+				"foreground": "#49006A"
+			}
+		},
+		{
+			"name": "Inherited class",
+			"scope": "entity.other.inherited-class",
+			"settings": {
+				"fontStyle": "italic underline",
+				"foreground": "#ddbb88"
+			}
+		},
+		{
+			"name": "Function arguments",
+			"scope": "variable.parameter",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#2277ff"
+			}
+		},
+		{
+			"name": "Tag names",
+			"scope": "entity.name.tag",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#225588"
+			}
+		},
+		{
+			"name": "Library functions",
+			"scope": "support.function",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#9966b8"
+			}
+		},
+		// {
+		// 	"name": "Library constants",
+		// 	"scope": "support.constant",
+		// 	"settings": {
+		// 		"fontStyle": "",
+		// 		"foreground": "#9966b8"
+		// 	}
+		// },
+		{
+			"name": "diff: header",
+			"scope": [
+				"meta.diff",
+				"meta.diff.header"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#E0EDDD"
+			}
+		},
+		{
+			"name": "diff: deleted",
+			"scope": "markup.deleted",
+			"settings": {
+				"foreground": "#dc322f"
+			}
+		},
+		{
+			"name": "diff: changed",
+			"scope": "markup.changed",
+			"settings": {
+				"foreground": "#cb4b16"
+			}
+		},
+		{
+			"name": "diff: inserted",
+			"scope": "markup.inserted",
+			"settings": {
+				"foreground": "#219186"
+			}
+		},
+		{
+			"name": "Markup Quote",
+			"scope": "markup.quote",
+			"settings": {
+				"foreground": "#22aa44"
+			}
+		},
+		{
+			"name": "Markup Styling",
+			"scope": [
+				"markup.bold",
+				"markup.italic"
+			],
+			"settings": {
+				"foreground": "#22aa44"
+			}
+		},
+		{
+			"name": "Markup Inline",
+			"scope": "markup.inline.raw",
+			"settings": {
+				"foreground": "#9966b8"
+			}
+		},
+		{
+			"name": "Markup Setext Header",
+			"scope": "markup.heading.setext",
+			"settings": {
+				"foreground": "#ddbb88"
+			}
+		}
+	]
+}
