@@ -2,7 +2,7 @@
     "name": "Macaroon-theme",
     "displayName": "Macaroon Theme",
     "description": "A light theme for vscode",
-    "version": "0.0.5",
+    "version": "0.0.7",
     "publisher": "sean",
     "engines": {
         "vscode": "^1.12.0"
@@ -10,6 +10,13 @@
     "categories": [
         "Themes"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/imseanpan/Macaroon-Theme.git"
+    },
+    "bugs": {
+        "url": "https://github.com/imseanpan/Macaroon-Theme/issues"
+    },
     "icon": "icon.png",
     "contributes": {
         "themes": [
