@@ -145,7 +145,8 @@
 		{
 			"scope": "constant.language.boolean",
 			"settings": {
-				"foreground": "#d33682"
+				"fontStyle": "bold",
+				"foreground": "#2c91af"
 			}
 		},
 		// console关键字的颜色

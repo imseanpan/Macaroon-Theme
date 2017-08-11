@@ -2,7 +2,7 @@
     "name": "Macaroon-theme",
     "displayName": "Macaroon Theme",
     "description": "A light theme for vscode",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "publisher": "sean",
     "engines": {
         "vscode": "^1.12.0"

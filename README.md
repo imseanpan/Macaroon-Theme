@@ -6,6 +6,9 @@ A light syntax theme for VS Code.
 
 一个好看的亮色系皮肤
 
+### 0.0.8
+修改了true和false的颜色
+
 ### 0.0.1
 The first version, welcome to try.
 第一个版本，欢迎大家试用。
