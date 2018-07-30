@@ -35,7 +35,7 @@
 			}
 		},
 		{
-			"scope": "keyword.control.import.js,keyword.control.from.js,keyword.control.export.js,keyword.control.default.js",
+			"scope": "keyword.control.import.js,keyword.control.from.js,keyword.control.export.js,keyword.control.default.js,support.type.object.module.ts",
 			"settings": {
 				"fontStyle": "bold"
 			}
@@ -64,21 +64,21 @@
 		},
 		// 单引号文字的颜色
 		{
-			"scope": "string.quoted.single.js,string.quoted.single.scss,string.quoted.single.attribute-value.scss,string.quoted.single.json",
+			"scope": "string.quoted.single.js,string.quoted.single.scss,string.quoted.single.attribute-value.scss,string.quoted.single.json,string.quoted.single.ts",
 			"settings": {
 				"foreground": "#22aa44"
 			}
 		},
 		// 双引号文字
 		{
-			"scope": "string.quoted.double.js,string.quoted.double.scss,string.quoted.double.attribute-value.scss,string.quoted.double.json",
+			"scope": "string.quoted.double.js,string.quoted.double.scss,string.quoted.double.attribute-value.scss,string.quoted.double.json,string.quoted.double.ts",
 			"settings": {
 				"foreground": "#22aa44"
 			}
 		},
 		// JSON key的颜色
 		{
-			"scope": "constant.other.object.key.js,meta.object-literal.key.js,support.type.property-name.json",
+			"scope": "constant.other.object.key.js,meta.object-literal.key.js,support.type.property-name.json,meta.object-literal.key.ts,variable.other.property.ts",
 			"settings": {
 				"foreground": "#fe7d9d"
 			}
@@ -91,7 +91,7 @@
 				"foreground": "#555555"
 			}
 		},
-		
+
 		// 注释相关颜色
 		{
 			"scope": "comment",
@@ -127,7 +127,7 @@
 		},
 		// this关键字的颜色
 		{
-			"scope": "variable.language.this,storage.type.function.js,keyword.control.flow.js,support.variable.dom.js,support.variable.property.dom.js",
+			"scope": "variable.language.this,storage.type.function.js,keyword.control.flow.js,support.variable.dom.js,support.variable.property.dom.js,support.function.promise.ts,keyword.control.flow.ts",
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#d33682"
@@ -143,7 +143,7 @@
 		},
 		// bool值的颜色
 		{
-			"scope": "constant.language.boolean",
+			"scope": "constant.language.boolean,constant.language.boolean.false.ts,constant.language.boolean.true.ts",
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#2c91af"
@@ -407,6 +407,6 @@
 			"settings": {
 				"foreground": "#ddbb88"
 			}
-		}
+		},
 	]
 }
