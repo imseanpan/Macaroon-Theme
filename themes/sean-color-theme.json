@@ -2,10 +2,11 @@
 	"name": "sean",
 	"colors": {
 		"editor.background": "#fdf6e3",
-		"editor.foreground": "#6688cc"
-		// "tabsContainerBackground": "#1c1c2a",
-		// "inactiveTabBackground": "#10192c",
-		// "activityBarBackground": "#051336",
+		"editor.foreground": "#6688cc",
+		"activityBar.background": "#ececec",
+		"activityBar.activeBackground": "#dcdcdc",
+		"activityBar.activeBorder": "#ff5100",
+		"activityBar.foreground": "#ff5100"
 	},
 	"tokenColors": [
 		// invalid 的预发定义
