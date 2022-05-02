@@ -173,11 +173,47 @@
 					"foreground": "#22AA44"
 				}
 			},
+			// html 和 react 的 </> 颜色
+			{
+				"scope": [
+					"punctuation.definition.tag.begin.js.jsx",
+					"punctuation.definition.tag.end.js.jsx",
+					"punctuation.definition.tag.begin.html",
+					"punctuation.definition.tag.end.html",	
+				],
+				"settings": {
+					"foreground": "#268BD2"
+				}
+			},
+			// react jsx的第一个 {} 颜色
+			{
+				"scope": [
+					"punctuation.section.embedded.begin.js.jsx",
+					"punctuation.section.embedded.end.js.jsx",
+				],
+				"settings": {
+					"fontStyle": "bold",
+					"foreground": "#d33682"
+				}
+			},
+			// react jsx的第一个 {} 颜色
+			{
+				"scope": [
+					"punctuation.definition.parameters.begin.js.jsx",
+					"punctuation.definition.parameters.end.js.jsx",
+					"punctuation.definition.block.js.jsx",
+				],
+				"settings": {
+					"foreground": "#268BD2"
+				}
+			},
+			
+			
 			// html 静态文案等信息
 			{
 				"scope": "punctuation.definition.tag.begin.htmlf,meta.jsx.children.js.jsx",
 				"settings": {
-					"foreground": "#22AA44"
+					"foreground": "#848587"
 				}
 			},
 			// this关键字的颜色
