@@ -1,14 +1,56 @@
 {
 	"name": "sean",
+	"type": "light",
 	"colors": {
 		"editor.background": "#fdf6e3",
-		"editor.foreground": "#6688cc"
-		// "tabsContainerBackground": "#1c1c2a",
-		// "inactiveTabBackground": "#10192c",
-		// "activityBarBackground": "#051336",
+		"editor.foreground": "#6688cc",		
+		// activity bar 最左面小条子
+		"activityBar.border": "#ffffff",
+		"activityBar.background": "#ffffff",
+		"activityBar.foreground": "#000000",
+		"activityBarBadge.background": "#d73a49",
+		// status bar
+		"statusBar.border": "#ffffff",
+		"statusBar.background": "#ffffff",
+		"statusBar.foreground": "#000000",
+		"statusBar.noFolderBackground": "#ffffff",
+		"statusBar.noFolderForeground": "#000000",
+		"statusBar.debuggingBackground": "#ffffff",
+		"statusBar.debuggingForeground": "#000000",
+		// side bars 资源管理器这块大的bar
+		"sideBar.border": "#D2CDC1",
+		"sideBar.background": "#fdf6e3",
+		"sideBar.foreground": "#000000",
+		"sideBarSectionHeader.background": "#fdf6e3",
+		"sideBarSectionHeader.border": "#fdf6e3",
+		// list 资源管理器 选中的样子
+		"list.highlightForeground": "#d73a49",
+		"list.activeSelectionBackground": "#eeeeee",
+		"list.activeSelectionForeground": "#d73a49",
+		"list.inactiveSelectionBackground": "#eeeeee",
+		"list.inactiveSelectionForeground": "#d73a49",
+		"list.hoverBackground": "#eeeeee",
+		"list.hoverForeground": "#d73a49",
+		"list.focusBackground": "#eeeeee",
+		"list.focusForeground": "#d73a49",
+		// titlebar 头部窗口条的颜色
+		"titleBar.border": "#fdf6e3",
+		"titleBar.activeBackground": "#fdf6e3",
+		"titleBar.activeForeground": "#000000",
+		"titleBar.inactiveBackground": "#fdf6e3",
+		"titleBar.inactiveForeground": "#000000",
+		// tab 头部tab的颜色
+		"editorGroup.border": "#fdf6e3",
+		"editorGroupHeader.tabsBackground": "#fdf6e3",
+		"editorGroupHeader.noTabsBackground": "#fdf6e3",
+		"editorGroupHeader.tabsBorder": "#fdf6e3",	
+		"tab.activeBackground": "#fdf6e3",
+		"tab.inactiveBackground": "#fdf6e3",
+		"tab.border": "#fdf6e3",
+		"tab.activeBorder": "#d73a49",	
 	},
 	"tokenColors": [
-		// invalid 的预发定义
+		// invalid 的语法定义
 		{
 			"scope": "invalid",
 			"settings": {
@@ -91,7 +133,6 @@
 				"foreground": "#555555"
 			}
 		},
-
 		// 注释相关颜色
 		{
 			"scope": "comment",
@@ -123,6 +164,20 @@
 			"scope": "comment.block.html",
 			"settings": {
 				"foreground": "#384887"
+			}
+		},
+		// html 内双引号内的颜色
+		{
+			"scope": "string.quoted.double.html",
+			"settings": {
+				"foreground": "#22AA44"
+			}
+		},
+		// html 静态文案等信息
+		{
+			"scope": "punctuation.definition.tag.begin.htmlf,meta.jsx.children.js.jsx",
+			"settings": {
+				"foreground": "#22AA44"
 			}
 		},
 		// this关键字的颜色
@@ -225,12 +280,6 @@
 			"scope": "variable.language.constructor",
 			"settings": {
 				"foreground": "#9966b8"
-			}
-		},
-		{
-			"settings": {
-				"background": "#000c18",
-				"foreground": "#6688cc"
 			}
 		},
 		{
