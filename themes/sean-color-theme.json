@@ -48,6 +48,11 @@
 			"tab.inactiveBackground": "#fdf6e3",
 			"tab.border": "#fdf6e3",
 			"tab.activeBorder": "#d73a49",	
+			// git diff 变化的颜色
+			// "diffEditor.insertedTextBackground": "#b6dbf022",
+			// "diffEditor.removedTextBackground": "#b6dbf022",
+			"diffEditor.insertedLineBackground": "#34d05822",
+			"diffEditor.removedLineBackground": "#d73a3a22",
 		},
 		"tokenColors": [
 			// invalid 的语法定义
